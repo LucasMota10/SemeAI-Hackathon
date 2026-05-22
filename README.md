@@ -57,14 +57,14 @@ Os datasets necessários para rodar o projeto estão disponíveis no Google Driv
 
 📂 **[Acessar datasets no Google Drive](https://drive.google.com/drive/folders/1mHHd9p4Po87JC5pTBXjX4YVcHFNTNnrd?usp=drive_link)**
 
-Baixe os arquivos e coloque-os na pasta `data/` do projeto com os seguintes nomes:
+Baixe os arquivos e coloque-os na pasta do projeto com os seguintes nomes:
 
 | Arquivo | Descrição |
 |---|---|
-| `data/dataset_clima.csv` | Dados horários de estações meteorológicas do INMET |
-| `data/dataset_estacoes.csv` | Cadastro de estações com coordenadas geográficas |
-| `data/dataset_plantas.csv` | Tolerâncias agronômicas por espécie (baseado no ECOCROP/FAO) |
-| `data/dataset_solo.csv` | Características físico-químicas do solo por UF |
+| `dataset_clima.csv` | Dados horários de estações meteorológicas do INMET |
+| `dataset_estacoes.csv` | Cadastro de estações com coordenadas geográficas |
+| `dataset_plantas.csv` | Tolerâncias agronômicas por espécie (baseado no ECOCROP/FAO) |
+| `dataset_solo.csv` | Características físico-químicas do solo por UF |
 
 ---
 
@@ -79,11 +79,11 @@ pip install prophet xgboost scikit-learn matplotlib seaborn tensorflow
 ## 🚀 Como usar
 
 1. Abra o notebook `main.ipynb`
-2. Na **Célula 2**, configure as coordenadas do local desejado:
+2. Na **Célula 2**, configure as coordenadas do local desejado, no exemplo abaixo estamos referenciando a cidade de juazeiro no interior da Bahia:
 
 ```python
-USER_LAT = -12.9714   # latitude
-USER_LON = -38.5014   # longitude
+USER_LAT = -9.4167   # latitude
+USER_LON = -40.5033   # longitude
 ```
 
 3. Execute todas as células em ordem (`Run All`)
@@ -140,7 +140,7 @@ O modelo com menor RMSE médio é selecionado automaticamente para gerar a previ
 | Sudoeste baiano | Vitória da Conquista | -14.8619 | -40.8444 |
 | Chapada Diamantina | Lençóis | -12.5628 | -41.3897 |
 | Oeste baiano (soja/milho) | Luís Eduardo Magalhães | -12.0964 | -45.7897 |
-| Semiárido | Juazeiro | -9.4119 | -40.5022 |
+| Semiárido | Juazeiro | -9.4167 | -40.5033 |
 
 ---
 
