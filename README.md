@@ -6,7 +6,7 @@ Sistema de recomendação de plantas baseado em previsão climática e análise 
 
 ## 💡 Ideia do Projeto
 
-O agricultor familiar muitas vezes toma decisões de plantio baseadas em experiência empírica ou tradição, sem acesso fácil a dados climáticos e agronômicos integrados. O **Agro-ML** resolve isso em três etapas simples:
+O agricultor familiar muitas vezes toma decisões de plantio baseadas em experiência empírica ou tradição, sem acesso fácil a dados climáticos e agronômicos integrados. O **SemeAI** resolve isso em três etapas simples:
 
 1. **O usuário informa uma coordenada geográfica** (latitude e longitude do seu terreno)
 2. **O sistema prevê o clima dos próximos 30 dias** para aquela localização, usando dados históricos de estações meteorológicas próximas
