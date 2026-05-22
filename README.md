@@ -1,4 +1,4 @@
-# 🌱 Agro-ML — Recomendação de Culturas para Agricultura Familiar na Bahia
+# 🌱 SemeAI — Recomendação de Culturas para Agricultura Familiar na Bahia
 
 Sistema de recomendação de plantas baseado em previsão climática e análise de solo, desenvolvido para apoiar agricultores familiares do estado da Bahia.
 
@@ -12,7 +12,7 @@ O agricultor familiar muitas vezes toma decisões de plantio baseadas em experi�
 2. **O sistema prevê o clima dos próximos 30 dias** para aquela localização, usando dados históricos de estações meteorológicas próximas
 3. **A previsão climática é cruzada com dados de solo e tolerâncias agronômicas** de centenas de espécies, gerando um ranking das plantas com maior compatibilidade para aquele local e momento
 
-O foco são culturas de ciclo curto viáveis para a agricultura familiar baiana: milho, feijão, mandioca, cacau, soja, banana, mamão, caju, café, sorgo e outras.
+O foco são culturas de ciclo curto viáveis para a agricultura familiar baiana: milho, feijão, mandioca, cacau, soja, banana, mamão, caju, café e sorgo.
 
 ---
 
