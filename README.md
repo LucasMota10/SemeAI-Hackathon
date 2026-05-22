@@ -89,7 +89,7 @@ USER_LON = -40.5033   # longitude
 3. Execute todas as células em ordem (`Run All`)
 4. O resultado final é um dashboard com:
    - Previsão de temperatura e precipitação para os próximos 30 dias
-   - Top 5 plantas recomendadas com score de adequação
+   - Top cultivos recomendadas com score de adequação
    - Comparativo de desempenho dos modelos (RMSE)
    - Diagnóstico agronômico do solo local
 
