@@ -46,7 +46,7 @@ Score de adequação por espécie vegetal
   (faixa ótima × faixa absoluta × bônus cultura-alvo)
         │
         ▼
-Top 5 plantas recomendadas + dashboard visual
+Top cultivos recomendados + dashboard visual
 ```
 
 ---
